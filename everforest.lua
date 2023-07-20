@@ -1,4 +1,4 @@
--- this is a modified dark theme from https://github.com/maoiscat to match with my openbox theme
+-- this is a modified dark theme from maoiscat to match with my openbox theme
 -- https://github.com/advalix/mpv-everforest/
 
 local assdraw = require 'mp.assdraw'
