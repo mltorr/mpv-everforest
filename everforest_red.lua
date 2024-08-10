@@ -1812,13 +1812,13 @@ function update_margins()
         reset_margins()
     end
 
-    utils.shared_script_property_set("osc-margins",
+    mp.set_property_native("user-data/osc/margins",
         string.format("%f,%f,%f,%f", margins.l, margins.r, margins.t, margins.b))
 end
 
 function shutdown()
     reset_margins()
-    utils.shared_script_property_set("osc-margins", nil)
+    mpv.set_property_native("user-data/osc/margins", nil)
 end
 
 --
